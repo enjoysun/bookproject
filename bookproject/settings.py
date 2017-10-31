@@ -1,3 +1,4 @@
+#encoding:utf-8
 """
 Django settings for bookproject project.
 
@@ -86,7 +87,7 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'zh-hans'
+LANGUAGE_CODE = 'zh-Hans'#汉化注意Hans首字母大写
 
 TIME_ZONE = 'Asia/Shanghai'
 
