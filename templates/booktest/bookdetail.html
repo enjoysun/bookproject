@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>详细页</title>
+</head>
+<body>
+<h1>{{booklist.bname}}</h1>
+<span>{{booklist.bpub_date.year}}年{{booklist.bpub_date.month}}月</span>
+<ul>
+{%for bookinfo in detaillist%}
+    <li>
+        <span>{{bookinfo.hname}}</span>
+        <span>{{bookinfo.hcontent}}</span>
+    </li>
+{%empty%}
+    <li>无数据</li>
+{%endfor%}
+</ul>
+</body>
+</html>
